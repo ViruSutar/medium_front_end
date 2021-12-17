@@ -32,8 +32,22 @@ li a {
     text-decoration: none;
 }
 
+.trending-logo{
+width: 20px;
+border-radius: 50%;
+margin-right: 8px;
+}
 
+.text-logo-container{
+    border-style: groove;
+    display: inline;
+    box-sizing: content-box;
+}
 
-
+.text-logo-container span{
+    font-size: 13px;
+    font-weight: 950;
+    letter-spacing: 1px;
+}
 
 
