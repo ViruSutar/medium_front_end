@@ -5,7 +5,7 @@
 header img{
     width: 150px;
     height: 80px;
-    margin-right: 700px;
+    margin-right: 650px;
 }
 
 header {
@@ -14,13 +14,23 @@ header {
     
 }
 
-nav ul{
+.nav-list{
     display: flex;
     text-decoration: none;
-    list-style-type:none;
-    justify-content: space-around;
+    list-style-type:none;   
 }
 
+.nav-list li{
+    margin: 12px;
+}
+
+.sign-in button{
+    margin-right: 150px;
+}
+
+li a {
+    text-decoration: none;
+}
 
 
 
