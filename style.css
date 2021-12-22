@@ -8,21 +8,7 @@ header img{
     margin-right: 650px;
 }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    
-}
 
-.nav-list{
-    display: flex;
-    text-decoration: none;
-    list-style-type:none;   
-}
-
-.nav-list li{
-    margin: 12px;
-}
 
 .sign-in button{
     margin-right: 150px;
@@ -32,22 +18,14 @@ li a {
     text-decoration: none;
 }
 
-.trending-logo{
-width: 20px;
-border-radius: 50%;
-margin-right: 8px;
+li{
+    list-style: none;
 }
 
-.text-logo-container{
-    border-style: groove;
-    display: inline;
-    box-sizing: content-box;
+.pencil{
+    
 }
 
-.text-logo-container span{
-    font-size: 13px;
-    font-weight: 950;
-    letter-spacing: 1px;
-}
+
 
 
