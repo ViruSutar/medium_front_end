@@ -1,31 +1,101 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header img{
-    width: 150px;
-    height: 80px;
-    margin-right: 650px;
-}
-
-
-
-.sign-in button{
-    margin-right: 150px;
+.sign-in button {
 }
 
 li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-.pencil{
-    
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
 }
 
+li {
+  margin-top: 25px;
+}
 
+header {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 713px;
+}
 
+.write button {
+  width: 140px;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #0080ff;
+  border-color: #0080ff;
+  color: white;
+}
 
+.pencil {
+  margin-right: 10px;
+  color: white;
+  font-size: 23px;
+
+}
+.sign-in button {
+  width: 120px;
+  font-size: 17px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bookmark {
+  margin-right: 12px;
+  font-size: 23px;
+
+}
+
+.tag {
+  margin-right: 12px;
+  font-size: 23px;
+
+}
+
+.admin {
+  margin-right: 12px;
+  font-size: 23px;
+
+}
+
+.feed {
+  margin-right: 12px;
+  font-size: 23px;
+}
+
+hr{
+    margin-right: 20px;
+    color: #ddd;
+    background-color: #ddd;
+    height: 1px;
+    border: none;
+}
+
+.more{
+    margin-right: 12px;
+    font-size: 40px;
+  }
+
+.drop-down{
+    margin-left: 25px;
+    display: none;
+}
+
+.more-button:active .drop-down{
+    display:block !important;
+    color:black;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title></title>
 </head>
 <body>
@@ -15,12 +16,23 @@
     </div>
     <nav>
         <ul class="nav-list">
-            <li class="write"><a href=""><button><i class='bx bx-pencil pencil'></i>  WRITE</button></a></li>
-            <li class="my-feed"><a href="">My Feed</a></li>
-            <li class="membership"><a href="">Membership</a></li>
-            <li class="admin-panel"><a href="">Admin Panel</a></li>
-            <li class="admin-panel"><i class='bx bx-bookmark'></i><a href="">Bookmarks</a></li>
-            <li class="sign-in"><a href=""><button>Sign In</button></a></li>
+            <li class="write"><a href=""><button> <i class="fas fa-pencil-alt pencil"></i>WRITE</button></a></li>
+            <br>
+            <hr>
+            <li class="my-feed"><a href=""><i class="fal fa-list-alt feed "></i>My Feed</a></li>
+            <li class="my-feed"><a href=""><i class="fal fa-file-alt feed"></i>Drafts</a></li>
+            <br>
+            <hr>
+            <li class="membership"><a href=""><i class="far fa-tag tag"></i>Tags</a></li>
+            <li class="admin-panel"><a href=""><i class="far fa-user-cog admin"></i>Admin Panel</a></li>
+            <li class="admin-panel"><a href=""><i class="far fa-bookmark bookmark"></i>Bookmarks</a></li>
+            <li class="more-button"><a href="" class="more-button"><i class="fal fa-caret-down more"></i>More</a>
+            <ul>
+                <li class="drop-down About">About</li>
+                <li class="drop-down About">About</li>
+                <li class="drop-down About">About</li>
+            </ul>
+        </li>
         </ul>
     </nav>
 </header>
