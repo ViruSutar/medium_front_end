@@ -87,15 +87,86 @@ hr{
 
 .more{
     margin-right: 12px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
-.drop-down{
-    margin-left: 25px;
-    display: none;
+/* .drop-down{
+    visibility: hidden;
+} */
+
+
+
+.more-button:hover .drop-down{
+    visibility: visible;
+    transition: all;
 }
 
-.more-button:active .drop-down{
-    display:block !important;
-    color:black;
+.more-button ul  {
+  top: 35px;
+  width: 100%;
+} 
+
+
+/* Dropdown */
+
+.dropdown{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.dd-button{
+  display: inline-block;
+  margin-left: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-button:after{
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+ 
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+} 
+
+.dd-input:checked + .dd-menu {
+  display: block;
+} 
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.arrow{
+  cursor: pointer;
+  margin-right: 12px;
+  font-size: 27px;
 }
