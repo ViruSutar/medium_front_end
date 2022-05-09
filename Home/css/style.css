@@ -17,6 +17,8 @@ border-width: 0.1px;
 border-right: none;
 border-left: none;
 border-top: none;
+position: sticky;
+top: 0;
 }
 
 .nav-bar{
@@ -142,8 +144,10 @@ a{
   width:15%;
   background-color:#F4F5FF;
   height: 700px;
-  display: flex;
+  display: inline-block;
   flex-direction: column;
+  position: sticky;
+  top: 5rem;
 }
 
 .bookmark {
@@ -250,7 +254,7 @@ td:nth-child(1){
   flex-direction: column;
   align-items: center;
   color: darkgrey;
-  margin-top: 105px;
+  margin-top: 115px;
 }
 
 .sidebar h4{
@@ -276,5 +280,60 @@ td:nth-child(1){
 }
 
 main{
-  display: flex;
+  margin-left: 240px;
+  margin-top: -700px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.main-image{
+  width: 500px;
+  float: right;
+  margin-top: -320px;
+}
+
+.tag-line h2 span{
+  color:#0000FF;
+}
+
+.tag-line h2{
+  font-size: 70px;
+  line-height: 68px;
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+
+.tag-line p:nth-child(2){
+  font-size: 25px;
+  color:gray;
+  font-weight: 590;
+}
+
+.tag-line p:nth-child(3){
+  font-size: 25px;
+  font-weight: 600;
+  word-spacing: 2px;
+}
+
+.tag-line button{
+  width: 200px;
+  height: 53px;
+  border-radius: 30px 30px;
+  border: none;
+  font-size: 17px; /* Set a font size */
+  cursor: pointer; 
+  background-color: #0000FF;
+}
+
+.tag-line button a{
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 1px;
+  
+}
+
+.tag-line button:hover{
+  background-color: #0804e8;
 }
