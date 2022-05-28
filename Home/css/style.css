@@ -13,40 +13,37 @@ header {
   background-color: white;
   display: flex;
   align-items: center;
-  height: 65px;
+  height: 4.4em;
   border-style: groove;
   border-color: lightgray;
   border-width: 0.1px;
   border-right: none;
   border-left: none;
   border-top: none;
-  width: 100%;
+  width: 95em;
 }
 
 .nav-bar {
   display: flex;
   list-style: none;
-  margin-left: 720px;
+  margin-left: 50em;
   justify-content: space-around;
-  width: 600px;
+  width: 40em;
 }
 
+
 .write-button {
-  width: 120px;
-  height: 45px;
+  width: 6.5em;
+  height: 2.4em;
   border-radius: 25px 25px;
   border: none;
-  font-size: 18px; /* Set a font size */
+  font-size: 1.2rem; /* Set a font size */
   cursor: pointer;
   color: white;
   background-color: #3333ff;
   font-weight: 595;
 }
 
-.write-button i {
-  font-size: 19px;
-  margin-right: 3px;
-}
 
 .write-button:hover {
   background-color: #0804e8;
@@ -63,8 +60,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
+  width: 3em;
+  height: 3em;
   color: #333333;
   background: white;
   border: none;
@@ -95,11 +92,11 @@ a {
 }
 
 .sign-in {
-  width: 120px;
-  height: 45px;
+  width: 6.5em;
+  height: 2.4em;
   border-radius: 25px 25px;
   border: none;
-  font-size: 18px; /* Set a font size */
+  font-size: 1.2rem; /* Set a font size */
   cursor: pointer;
   color: white;
   background-color: #3333ff;
@@ -111,10 +108,10 @@ a {
 }
 
 .log-in {
-  width: 120px;
-  height: 45px;
+  width: 6.5em;
+  height: 2.4em;
   border-radius: 25px 25px;
-  font-size: 18px; /* Set a font size */
+  font-size: 1.2rem; /* Set a font size */
   cursor: pointer;
   color: #3333ff;
   border-color: #3333ff;
@@ -125,6 +122,15 @@ a {
 .log-in:hover {
   background-color: #f4f5ff;
 }
+
+/* nav-bar responsiveness  */
+
+/* @media screen and (max-width:80px) {
+  .nav-bar{
+    background-color: red;
+  }
+} */
+
 
 .main-logo {
   display: flex;
@@ -286,18 +292,16 @@ td:nth-child(1) {
 
 
 main {
-  margin-left: 240px;
+  margin-left: 220px;
   margin-top: -700px;
-  padding: 20px;
-  padding-left: 50px;
   padding-top: 60px;
 }
 
 .main-image {
-  width: 500px;
-  margin-right: 60px;
+  width: 35%;
+  margin-right:12em;
   float: right;
-  margin-top: -350px;
+  margin-top: -22em;
 }
 
 .tag-line h2 span {
@@ -350,12 +354,13 @@ main {
 
 .tag-line{
  margin-bottom: 200px; 
+ padding-left: 35px;
 }
 
 .trending-articles-container {
   margin-left: -67px;
   margin-top: 100px;
-  max-width: 110%;
+  max-width: 200vh;
   height: 1550px;
   /* margin-left: 100px; */
   flex-direction: column;
@@ -387,11 +392,12 @@ main {
 
 .articles-container {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   padding: 20px 40px;
+  padding-right: 10px;
 }
 
 .article-image {
@@ -464,7 +470,7 @@ main {
   width: 90%;
   margin-top: 70px;
   border-radius: 15px 15px;
-  margin-left: 45px;
+  margin-left: 70px;
   height: 340px;
   background-color: rgba(0, 0, 255, 0.1);
 }
@@ -491,7 +497,7 @@ main {
 .buttons-container {
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 36%;
   height: auto;
   padding-bottom: 20px;
 }
@@ -542,8 +548,7 @@ main footer {
 
 main hr {
   margin-top: 100px;
-  width: 108%;
-  margin-left: -70px;
+  width: 200vh;
 }
 
 .footer {
