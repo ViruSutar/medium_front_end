@@ -357,7 +357,7 @@ main {
  padding-left: 35px;
 }
 
-.trending-articles-container {
+.right-sidebar-container {
   margin-left: -67px;
   margin-top: 100px;
   max-width: 200vh;
@@ -458,7 +458,7 @@ main {
   margin-left: 548px;
 }
 
-.trending-articles-container button:hover {
+.right-sidebar-container button:hover {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
