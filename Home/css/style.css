@@ -262,6 +262,7 @@ td:nth-child(1) {
   align-items: center;
   color: darkgrey;
   margin-top: 190px;
+  margin-right: 1em;
 }
 
 .sidebar h4 {
