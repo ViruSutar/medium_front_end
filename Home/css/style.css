@@ -503,7 +503,7 @@ main {
   padding-bottom: 20px;
 }
 
-.buttons-container button:first-child {
+.buttons-container .get-started{
   width: 200px;
   height: 53px;
   border-radius: 30px 30px;
@@ -512,13 +512,13 @@ main {
   background-color: #3333ff;
 }
 
-.buttons-container button:nth-child(1) a {
+.buttons-container .get-started  {
   color: white;
   font-size: 17px; /* Set a font size */
   font-weight: 600;
 }
 
-.buttons-container button:last-child {
+.buttons-container .login2{
   width: 140px;
   height: 53px;
   border-radius: 30px 30px;
@@ -529,17 +529,17 @@ main {
   border-width: 1.5px;
 }
 
-.buttons-container button:first-child:hover {
+.buttons-container .get-started:hover {
   background-color: #0804e8;
 }
 
-.buttons-container button:last-child a {
+.buttons-container .login2 {
   font-size: 18px; /* Set a font size */
   font-weight: 600;
   color: #3333ff;
 }
 
-.buttons-container button:last-child:hover {
+.buttons-container .login2:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 

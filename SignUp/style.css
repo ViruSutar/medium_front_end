@@ -27,6 +27,7 @@ header {
   height: 4.3em;
   display: flex;
   justify-content: center;
+  border-bottom: 0.5px solid darkgray;
 }
 
 .main-logo {
@@ -34,26 +35,34 @@ header {
 }
 
 main {
-  background-color: aliceblue;
+  background-color: #F5FCFF;
   display: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
 }
 
-.signup-container {
+/* .signup-container {
   display: flex;
   width: 25em;
   height: 32em;
   padding-top: 5em;
-}
+  border:1px solid red;
+} */
 
 .signup-form {
   flex: 1;
+  width: 25em;
+  margin-top: 4em;
+  margin-bottom: 10em;
   background-color: #eff0f1;
-  padding-left: 5em;
+  padding-left: 4em;
   padding-right: 5em;
   padding-top: 3em;
+  border-radius:10px;
+  height: 28em;
+  box-shadow: 0 0 5px 5px darkgray;
+
 }
 
 .email-label {
@@ -80,7 +89,7 @@ main {
   font-weight: 600;
   color: white;
   border: none;
-  box-shadow: 1.3px 1.3px 1.3px 1.3px black;
+  box-shadow: 0 0 1.8px 1.8px darkblue;
 }
 
 .signup-form button:hover{
@@ -98,10 +107,9 @@ input {
   margin-top: 1em;
   font-size: 1.2rem;
   text-align: center;
-  margin-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 .form-header h1 {
   font-size: 1.5rem;
-  padding-top: 1em;
 }

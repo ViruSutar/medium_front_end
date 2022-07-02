@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  
+  /* font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans 3', sans-serif; */
+  
+  .main-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 13px;
+  }
+  
+  .main-logo img {
+    width: 2.7em;
+    margin-right: 4px;
+  }
+  
+  header {
+    width: 100%;
+    background-color: white;
+    height: 4.3em;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px solid darkgray;
+  }
+  
+  .main-logo {
+    padding: 1em;
+  }
+  
+  main {
+    background-color: #F5FCFF;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  /* .signup-container {
+    display: flex;
+    width: 25em;
+    height: 32em;
+    padding-top: 5em;
+    border:1px solid red;
+  } */
+  
+  .signup-form {
+    flex: 1;
+    width: 25em;
+    margin-top: 4em;
+    margin-bottom: 10em;
+    background-color: #eff0f1;
+    padding-left: 4em;
+    padding-right: 5em;
+    padding-top: 3em;
+    border-radius:10px;
+    height: 26em;
+    box-shadow: 0 0 5px 5px darkgray;
+  }
+  
+  .email-label {
+    display: block;
+    padding-top: 0.8em;
+    padding-bottom: 0.2em;
+  }
+  
+  .pass-label {
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+  }
+  
+  .signup-form button {
+    display: block;
+    margin-top: 2em;
+    width: 18em;
+    height: 2em;
+    border-radius: 7px;
+    background-color: #3333ff;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    box-shadow: 0 0 1.8px 1.8px darkblue;
+  }
+  
+  .signup-form button:hover{
+    background-color: #0804e8;
+  }
+  
+  input {
+    width: 21em;
+    height: 2.5em;
+    border-radius: 7px;
+    border: 1px solid gray;
+  }
+  
+  .redirect-button {
+    margin-top: 1em;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .form-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .forgot-password{
+    padding-left: 7em;
+    padding-top: 0.8em;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
